@@ -57,21 +57,8 @@ html,body{
 }
 
 /* label top-left — posicionado abaixo do logo (logo: top 32px h 28px = 60px + gap 12px = 72px) */
-.plabel{
-  position:absolute;
-  top:72px;
-  left:100px;
-  font-size:10px;
-  font-weight:700;
-  letter-spacing:.2em;
-  text-transform:uppercase;
-  color:var(--muted);
-  /* only one language visible at a time */
-}
-/* hide EN label by default; show when body.en */
-.plabel.en{ display:none; }
-body.en .plabel.pt{ display:none; }
-body.en .plabel.en{ display:block; }
+
+
 
 .pindex{
   position:absolute;
@@ -795,8 +782,6 @@ input[type=range]::-webkit-slider-thumb{
      S0  CAPA
 ══════════════════════════════════════ -->
 <section class="panel" id="s0">
-  <div class="plabel pt">Investor Deck 2026</div>
-  <div class="plabel en">Investor Deck 2026</div>
   <div class="pindex">01 / 14</div>
   <div class="s0-inner">
     <div class="eyebrow s0-ey"><span class="pt">Grupo Track Medicina</span><span class="en" style="display:none">Grupo Track Medicina</span></div>
@@ -821,8 +806,6 @@ input[type=range]::-webkit-slider-thumb{
      S1  PROBLEMA
 ══════════════════════════════════════ -->
 <section class="panel" id="s1">
-  <div class="plabel pt">O Problema</div>
-  <div class="plabel en">The Problem</div>
   <div class="pindex">02 / 14</div>
   <div class="s1-inner">
     <div>
@@ -860,8 +843,6 @@ input[type=range]::-webkit-slider-thumb{
      S2  SOLUÇÃO
 ══════════════════════════════════════ -->
 <section class="panel" id="s2">
-  <div class="plabel pt">A Solução</div>
-  <div class="plabel en">The Solution</div>
   <div class="pindex">03 / 14</div>
   <div class="s2-inner">
     <div>
@@ -930,8 +911,6 @@ input[type=range]::-webkit-slider-thumb{
      S3  PRODUTOS
 ══════════════════════════════════════ -->
 <section class="panel" id="s3">
-  <div class="plabel pt">Ecossistema</div>
-  <div class="plabel en">Ecosystem</div>
   <div class="pindex">04 / 14</div>
   <div class="s3-inner">
     <div class="eyebrow s3-ey"><span class="pt">Quatro plataformas</span><span class="en" style="display:none">Four platforms</span></div>
@@ -1022,8 +1001,6 @@ input[type=range]::-webkit-slider-thumb{
      S4  MERCADO
 ══════════════════════════════════════ -->
 <section class="panel" id="s4">
-  <div class="plabel pt">Mercado Endereçável</div>
-  <div class="plabel en">Addressable Market</div>
   <div class="pindex">05 / 14</div>
   <div class="s4-inner">
     <div>
@@ -1106,8 +1083,6 @@ input[type=range]::-webkit-slider-thumb{
      S5  MODELO DE NEGÓCIO
 ══════════════════════════════════════ -->
 <section class="panel" id="s5">
-  <div class="plabel pt">Modelo de Negócio</div>
-  <div class="plabel en">Business Model</div>
   <div class="pindex">06 / 14</div>
   <div class="s5-inner">
     <div class="eyebrow s5-ey"><span class="pt">Receita recorrente</span><span class="en" style="display:none">Recurring revenue</span></div>
@@ -1185,8 +1160,6 @@ input[type=range]::-webkit-slider-thumb{
      S6  DISTRIBUIÇÃO
 ══════════════════════════════════════ -->
 <section class="panel" id="s6">
-  <div class="plabel pt">Distribuição</div>
-  <div class="plabel en">Distribution</div>
   <div class="pindex">07 / 14</div>
   <div class="s6-inner">
     <div>
@@ -1251,8 +1224,6 @@ input[type=range]::-webkit-slider-thumb{
      S7  PARCERIA FARMACÊUTICA
 ══════════════════════════════════════ -->
 <section class="panel" id="s7">
-  <div class="plabel pt">Parceria Farmacêutica</div>
-  <div class="plabel en">Pharma Partnership</div>
   <div class="pindex">08 / 14</div>
   <div class="s7-inner">
     <div>
@@ -1325,8 +1296,6 @@ input[type=range]::-webkit-slider-thumb{
      S8  PROJEÇÃO FINANCEIRA
 ══════════════════════════════════════ -->
 <section class="panel" id="s8">
-  <div class="plabel pt">Projeção Financeira</div>
-  <div class="plabel en">Financial Projections</div>
   <div class="pindex">09 / 14</div>
   <div class="s8-inner">
     <div class="eyebrow s8-ey"><span class="pt">MRR projetado por cenário</span><span class="en" style="display:none">Projected MRR by scenario</span></div>
@@ -1402,8 +1371,6 @@ input[type=range]::-webkit-slider-thumb{
      S9  CALCULADORA ROI
 ══════════════════════════════════════ -->
 <section class="panel" id="s9">
-  <div class="plabel pt">Calculadora de ROI</div>
-  <div class="plabel en">ROI Calculator</div>
   <div class="pindex">10 / 14</div>
   <div class="s9-inner">
     <div class="eyebrow s9-ey"><span class="pt">Simulação interativa</span><span class="en" style="display:none">Interactive simulation</span></div>
@@ -1475,8 +1442,6 @@ input[type=range]::-webkit-slider-thumb{
      S10  ROADMAP
 ══════════════════════════════════════ -->
 <section class="panel" id="s10">
-  <div class="plabel pt">Roadmap</div>
-  <div class="plabel en">Roadmap</div>
   <div class="pindex">11 / 14</div>
   <div class="s10-inner">
     <div class="eyebrow s10-ey"><span class="pt">Execução e expansão</span><span class="en" style="display:none">Execution and expansion</span></div>
@@ -1554,8 +1519,6 @@ input[type=range]::-webkit-slider-thumb{
      S11  LGPD
 ══════════════════════════════════════ -->
 <section class="panel" id="s11">
-  <div class="plabel pt">Privacidade</div>
-  <div class="plabel en">Privacy</div>
   <div class="pindex">12 / 14</div>
   <div class="s11-inner">
     <div>
@@ -1593,8 +1556,6 @@ input[type=range]::-webkit-slider-thumb{
      S12  EQUIPE
 ══════════════════════════════════════ -->
 <section class="panel" id="s12">
-  <div class="plabel pt">A Equipe</div>
-  <div class="plabel en">The Team</div>
   <div class="pindex">13 / 14</div>
   <div class="s12-inner">
     <div class="eyebrow s12-ey"><span class="pt">Fundadores</span><span class="en" style="display:none">Founders</span></div>
@@ -1636,8 +1597,6 @@ input[type=range]::-webkit-slider-thumb{
      S13  CONTATO
 ══════════════════════════════════════ -->
 <section class="panel" id="s13">
-  <div class="plabel pt">Contato</div>
-  <div class="plabel en">Contact</div>
   <div class="pindex">14 / 14</div>
   <div class="s13-inner">
     <div class="eyebrow s13-ey"><span class="pt">Próximos passos</span><span class="en" style="display:none">Next steps</span></div>
